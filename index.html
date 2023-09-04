@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Florist.co - Home</title>
+    <style>
+        * {
+            box-sizing: content-box;
+            margin: 0px;
+            font-family: sans-serif;
+        }
+        body {
+            background-color: pink;
+        }
+        /* HEADER */
+        .header > img {
+            width: 100%;
+        }
+        /* CONTENT */
+        .content  {
+            text-align: justify;
+            padding: 50px;
+            background-color: white;
+        }
+        .title-content {
+            font-size: 40px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            padding: 20px;
+            text-align: center;
+        }
+        .content {
+            margin-right: 120px;
+            margin-left: 120px;
+            border-radius: 40px;
+        }
+        .form1 {
+            margin-bottom: 100px;
+        }
+        select , input {
+            float: right;
+            border-radius: 20px;
+        }
+        .form2 > #submit {
+            margin-top: 80px;
+            margin-right: 250px;
+            padding-right: 50px;
+            padding-left: 50px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            border-radius: 5px;
+            background-color: palevioletred;
+            color: white
+        }
+        /* FOOTER */
+        .footer {
+            margin-top: 150px;
+            padding: 25px;
+            text-align: center;
+            background-color: rgb(226, 79, 104);
+            font-size: 17px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: bold;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <!-- HEADER -->
+    <div class="header">
+        <img src="Images/FLORIST.CO.jpg" alt="">
+    </div>
+    <!-- CONTENT -->
+    <div class="title-content">LAMAN TEMPAHAN</div>
+    <div class="content">
+        <form action="">
+            <form action="" class="form1">
+                PRODUK YANG DIINGINI
+            <select name="" id="" class="product">
+                <option value=""></option>
+                <option value="">Set Hari Lahir - RM49.90</option>
+                <option value="">Set Perkahwinan - RM 54.90</option>
+                <option value="">Set Merah Mekar - RM59.90</option>
+                <option value="">Set Kuning Menyerlah - RM 59.90</option>
+                <option value="">Set Pelangi Indah - RM 69.90</option>
+            </select>
+            <br>
+            <br>
+            KUANTITI<input type="number" class="quantity" placeholder="Isikan kuantiti">
+            </form>
+            <br>
+            ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+            <br><br>
+            <form action="" class="form2">
+                NAMA PENERIMA <input type="text" placeholder="Nama penerima">
+                <br>
+                <br>
+                ALAMAT <input type="text" placeholder="Alamat terkini">
+                <br>
+                <br>
+                E-MEL PENGGUNA <input type="email" placeholder="Isikan e-mel">
+                <br>
+                <br>
+                JENIS PEMBAYARAN
+                <select name="" id="">
+                    <option value=""></option>
+                    <option value="">e-Wallet</option>
+                    <option value=""><i>Money Transfer</i></option>
+                    <option value="">Debit & Credit Card</option>
+                    <option value="">Cash On Delivery</option>
+                </select>
+                <input type="submit" id="submit" value="KLIK UNTUK TEMPAH!">
+            </form>
+        </form>
+    </div>
+    <!-- FOOTER -->
+    <div class="footer">
+        &copy;Copyright 2023, Florist.co --- AL FAYYADH BIN BOMIEDIN --- K531MKPD001
+    </div>
+</body>
+</html>
